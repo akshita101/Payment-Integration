@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" >
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Payment charity </title>
+    <link href="img/1.jpg" rel="icon">
+</head>
+<style>
+    .info{
+        max-width: 500px;
+        max-height: fit-content;
+        margin: auto;
+        padding: 25px;
+        float: right;
+        margin-right: 20%;
+        input[type=text]{
+            width: 100%;
+            border: 5px solidcolor;
+            border-radius: 3px;
+            box-sizing: border-box;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+        }
+    }
+    body{
+        background-image: url('img/don.jpeg') ;
+        background-size:cover;
+    }
+    .w1{
+        font-display: inherit;
+        float: right;
+        margin-right: 13%;
+    }
+</style>
+<body>
+    <br><br><br>
+     <h1 class="w1">EVERY PENNY COUNTS!</h1><br><br><br><br><br>
+     <form class="info" action="pay.php" method="post">
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <br><br>
+    
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br><br>
+
+        <label for="ename">Email Address</label><br>
+        <input type="text" id="ename" name="email address" placeholder="Your email id.."><br><br>
+
+        <label for="contact">Contact Number</label><br>
+        <input type="text" id="cname" name="contactnum" placeholder="Your contact number.."><br><br>
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+        <option value="india">India</option>
+        <option value="nepal">Nepal</option>
+        </select><br><br>
+        <input type="submit" />
+     </form>
+</body>
+</html>
